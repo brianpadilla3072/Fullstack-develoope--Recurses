@@ -1,0 +1,23 @@
+.red{
+    background-color: rgb(233, 132, 132);
+}
+.green{
+    background-color: rgb(89, 224, 84);
+}
+.blue{
+    background-color: rgb(166, 147, 233);
+}
+.position-container{
+    width: 90%;
+    height: 500px;
+    border: 2px solid ;
+    margin: auto;
+    padding: 3px;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    padding: 2px;
+    margin: 3px;
+}

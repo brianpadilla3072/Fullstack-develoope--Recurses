@@ -1,0 +1,101 @@
+/* flexBox */
+
+.container-flex{
+    padding: 0.5rem;
+    display: flex;
+    gap:1rem;
+}
+.container-Box-flex{
+    width: 70%;
+    padding: 0.5rem;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+  
+}
+.box-flex{
+    width: 100px;
+    max-width: 30%;
+    min-width: 28%;
+    height: 200px;
+    border: 1px solid;
+}
+.box-Aside-flex{
+    width: 30%;
+    padding: 1rem;
+    border: 1px solid;
+}/*
+Con Flexbox, puedes controlar la distribución y el posicionamiento de los elementos hijos dentro de un contenedor flexible, lo que te permite crear diseños responsivos y adaptables con menos código y complicaciones. Es una herramienta poderosa para crear diseños web modernos y dinámicos.
+*/
+
+
+
+/* grid */
+.container-grid{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap:1rem;
+}
+.container-Box-grid{
+    border: 1px solid;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); */
+    gap: 1rem;
+}
+.box-grid{
+    border: 1px solid;
+    height: 200px;
+}
+.box-Aside-grid{
+    border: 1px solid;
+    padding: 1rem;
+}
+/*
+Con Grid, puedes dividir el espacio en filas y columnas definidas, y luego colocar elementos en estas áreas de manera precisa. Es especialmente útil cuando necesitas diseñar diseños más complejos y estructurados, como cuadrículas o diseños de tipo tablero. Grid ofrece un control detallado sobre el posicionamiento y el tamaño de los elementos en una página web, lo que lo convierte en una herramienta poderosa para el diseño web moderno y adaptable.
+
+*/
+
+
+
+
+/* flexBox  and grid*/
+
+.container-flex-grid{
+    padding: 0.5rem;
+    display: flex;
+    gap:1rem;
+}
+.container-Box-flex-grid{
+    width: 70%;
+    padding: 0.5rem;
+    border: 1px solid;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 1rem;
+  
+}
+.box-flex-grid{
+    
+    height: 200px;
+    border: 1px solid;
+}
+.box-Aside-flex-grid{
+    width: 30%;
+    padding: 1rem;
+    border: 1px solid;
+}
+/*
+Cómo pueden trabajar juntos:
+
+Flexbox y Grid son complementarios y pueden trabajar juntos en una misma página web.
+Puedes usar Flexbox para el diseño de componentes individuales dentro de una fila o columna, y luego usar Grid para organizar esos componentes en un diseño bidimensional más grande.
+Por ejemplo, podrías utilizar Flexbox para alinear elementos dentro de un encabezado o un pie de página, y luego usar Grid para estructurar el diseño general de la página, como dividir el contenido en secciones o columnas.
+Esta combinación ofrece una gran flexibilidad y control sobre el diseño de tu página web, permitiéndote crear diseños complejos y responsivos de manera eficiente.
+
+*/

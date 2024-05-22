@@ -1,0 +1,26 @@
+h2{
+    text-align: center;
+    margin:1rem;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5rem;
+}
+
+#tems{
+   margin: auto;
+   padding: 1rem;
+}
+.list-tems{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(20,400px);
+    gap:1rem;
+    margin: auto;
+}
+.card-item{
+    list-style: none;
+    border: 1px solid;
+    border-radius: 15px;
+}

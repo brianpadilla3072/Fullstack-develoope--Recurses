@@ -24,22 +24,5 @@ h2{
     border: 1px solid;
     border-radius: 15px;
 }
-#components{
-    margin: auto;
-    padding: 1rem;
- }
- .components-list{
-     display: grid;
-     grid-template-columns: repeat(2,1fr);
-     grid-template-rows: repeat(6,200px);
-     gap:0.5rem;
-     margin: auto;
-     padding: 1rem;
- }
- .component-item{
-     list-style: none;
-     border: 1px solid;
-     border-radius: 15px;
-     overflow: hidden;
-     
- }
+
+ 

@@ -1,0 +1,15 @@
+:root{
+    --colorFondo : #222020;
+    --colorText : #fff;
+}
+@media (max-width : 600px) {
+    :root{
+        --colorFondo : #fff;
+        --colorText : #222020;
+    }
+}
+.caja{
+    background-color: var(--colorFondo);
+    color: var(--colorText);
+    
+}

@@ -1,0 +1,42 @@
+.content{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    gap : .5rem;
+    flex-wrap: wrap;
+}
+.caja{
+    border:1px solid;
+    width: 80vw;
+    height: 30vh;
+    padding: 1rem;
+    font-size: xx-large;
+};
+
+#menu{
+    display: block;
+}
+@media (max-width: 600px) {
+    #menu{
+        display: none;
+    }
+
+
+    .content {
+        flex-direction: column;
+    }
+    .caja{
+        background-color: aqua;
+        width: 80vw;
+    height: 60vh;
+    font-size: x-large;
+    }
+}
+@media (max-width: 400px) {
+   
+    .caja{
+        width: 80vw;
+    height: 60vh;
+        background-color: rgb(255, 60, 0);
+    }
+}
